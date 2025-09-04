@@ -1,21 +1,36 @@
 body {
-    background-color: #aaa8aa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../latihan-display/image/2021387.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-size: 15px;
 }
 
-h3 {
+h2, h4 {
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
+}
+
+p {
+    text-indent: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .container {
-    background-color: #faead7;
+    background-color: rgba(250, 234, 215, 0.8);
     margin: 0px 100px;
 }
 
+.header {
+    background-color: #333;
+    padding: 5px 10px;
+}
+
 .header a {
-    color: #d57b37;
+    color: #fff;
     text-decoration: none;
 
 }
@@ -28,9 +43,26 @@ h3 {
 .main-content img {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 300px;
+    margin-top: 20px;
     object-fit: cover;
 }
+
+/* .about {
+    background-color: #154D71;
+}
+
+.product {
+    background-color: #1C6EA4;
+}
+
+.services {
+    background-color: #33A1E0;
+}
+
+.contact {
+    background-color: #FFF9AF;
+} */
 
 a:hover {
     color: #aaa8aa;
