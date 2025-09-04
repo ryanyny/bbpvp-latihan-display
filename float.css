@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+.topbar {
+    background: #9dc1e4;
+    text-align: center;
+    padding: 30px;
+}
+
+.sidebar {
+    background: #e2e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 480px;
+    float: left;
+}
+
+.content {
+    background: #fff0ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 480px;
+    float: left;
+}
