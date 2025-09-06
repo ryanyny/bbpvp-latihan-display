@@ -89,3 +89,95 @@
 header svg {
     margin-bottom: -10px;
 }
+
+/* Tentang */
+.about {
+    background-color: #3674b5;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.about .container > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.about-box .box:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 150px;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-box .box:nth-child(1) img {
+    width: 300px;
+    padding: 10px 10px 0 10px;
+    background-color: #3b7bc0;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.about-box .box:nth-child(1) p {
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.about-box .box:nth-child(1) p span {
+    font-weight: bold;
+}
+
+.about-box .box:nth-child(1) a {
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-box .box:nth-child(1) a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+.about-box .tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.about-box .tools .tools-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-box .tools .tools-box:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.about-box .tools .tools-box img {
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+    .about-box .box:nth-child(1) {
+        grid-template-columns: 1fr;
+    }
+
+    .about-box .box:nth-child(1) div {
+        text-align: center;
+    }
+}
+/* Tentang */
