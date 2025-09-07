@@ -19,12 +19,20 @@
 
 /* Navbar */
 .navbar {
-    padding: 30px 0;
+    padding: 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-box .logo img {
+    margin: 0;
+    padding: 0;
+    height: 100px;
 }
 
 .navbar-box .menu {
@@ -39,7 +47,11 @@
 
 .navbar-box .menu li a {
     text-decoration: none;
-    color: black;
+    color: #000000;
+}
+
+.navbar-box .menu li a:hover {
+    color: #3674b5;
 }
 /* Navbar */
 
@@ -167,7 +179,6 @@ header svg {
 
 .about-box .tools .tools-box img {
     width: 50px;
-    background-color: #ffffff;
     border-radius: 5px;
 }
 
@@ -181,3 +192,129 @@ header svg {
     }
 }
 /* Tentang */
+
+/* Proyek */
+.project {
+    padding-block: 50px;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.project-box .box {
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.project-box .box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-box .project-desc {
+    margin-top: 20px;
+}
+
+.project-box .project-desc p {
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.project-box .project-desc .project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-box .project-desc .project-btn a {
+    background-color: #3674b5;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-box .project-desc .project-btn a:hover {
+    background-color: #3b7bc0;
+}
+
+@media (max-width: 768px) {
+    .project-box {
+        grid-template-columns: 1fr;
+    }
+}
+/* Proyek */
+
+/* Kontak */
+footer {
+    background-color: #3674b5;
+    margin-top: -10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer .social {
+    display: flex;
+    gap: 20px;
+}
+
+footer .social a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+/* Kontak */
+
+/* Scroll ke Atas */
+.scroll-up {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #3674b5;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.scroll-up:hover {
+    background-color: #3b7bc0;
+}
+
+.scroll-up a {
+    color: #ffffff;
+}
+
+@media (max-width: 475px) {
+    .scroll-up {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+/* Scroll ke Atas */

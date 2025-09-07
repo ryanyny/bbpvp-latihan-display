@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../latihan-display/images/rytech.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../latihan-display/images/rytech-no-bg.png" type="image/x-icon">
     
     <!-- Font Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="portofolio.css">
@@ -18,11 +27,23 @@
     <title>Portofolio | Ryan Febriansyah</title>
 </head>
 <body>
+    <!-- Scroll ke Atas -->
+    <div class="scroll-up">
+        <a href="#">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+    <!-- Scroll ke Atas -->
+
     <header>
         <!-- Navbar -->
         <div class="navbar">
             <div class="container">
                 <div class="navbar-box">
+                    <div class="logo">
+                        <img src="../latihan-display/images/rytech-no-bg.png" alt="Logo RyTech Corporate">
+                    </div>
+
                     <ul class="menu">
                         <li><a href="#about">Tentang</a></li>
                         <li><a href="#project">Proyek</a></li>
@@ -32,14 +53,14 @@
             </div>
         </div>
         <!-- Navbar -->
-
+        
         <!-- Hero -->
         <div class="hero">
             <div class="container">
                 <div class="hero-box">
                     <img src="../latihan-display/images/hero.png" alt="Gambar Hero">
                     <h1>
-                        Hai!, Saya <span></span> <br>
+                        Hai!, Saya <span>Ryan</span> <br>
                         Fullstack Developer
                     </h1>
                 </div>
@@ -59,7 +80,7 @@
     </header>
 
     <!-- Tentang -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <h1>Tentang</h1>
 
@@ -82,11 +103,11 @@
                 </div>
                 <div class="box">
                     <h1>Tools yang Dipakai</h1>
-                    <p>Ini adalah beberapa tools yang biasa saya pakai</p>
+                    <p>Berikut ini adalah beberapa tools yang biasa saya pakai.</p>
 
                     <div class="tools">
                         <div class="tools-box">
-                            <img src="../latihan-display/images/vscode.png" alt="Gambar Visual Studio Code">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Gambar Visual Studio Code" />
                             <div class="tools-desc">
                                 <h3>Visual Studio Code</h3>
                                 <p>Editor Kode</p>
@@ -94,7 +115,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/postman.png" alt="Gambar Postman">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Gambar Postman">
                             <div class="tools-desc">
                                 <h3>Postman</h3>
                                 <p>Pengujian API</p>
@@ -102,7 +123,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/git.png" alt="Gambar Git">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Gambar Git">
                             <div class="tools-desc">
                                 <h3>Git</h3>
                                 <p>Sistem Kontrol Versi</p>
@@ -110,7 +131,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/html.png" alt="Gambar HTML">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Gambar HTML">
                             <div class="tools-desc">
                                 <h3>HTML</h3>
                                 <p>Bahasa</p>
@@ -118,7 +139,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/css.png" alt="Gambar CSS">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Gambar CSS">
                             <div class="tools-desc">
                                 <h3>CSS</h3>
                                 <p>Bahasa</p>
@@ -126,7 +147,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/javascript.png" alt="Gambar Javascript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Gambar Javascript">
                             <div class="tools-desc">
                                 <h3>Javascript</h3>
                                 <p>Bahasa</p>
@@ -134,7 +155,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/reactjs.png" alt="Gambar React.js">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="Gambar React.js">
                             <div class="tools-desc">
                                 <h3>React.js</h3>
                                 <p>Library Javascript</p>
@@ -142,7 +163,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/nodejs.png" alt="Gambar Node.js">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Gambar Node.js">
                             <div class="tools-desc">
                                 <h3>Node.js</h3>
                                 <p>Runtime Environment</p>
@@ -150,7 +171,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/expressjs.png" alt="Gambar Express.js">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Gambar Express.js">
                             <div class="tools-desc">
                                 <h3>Express.js</h3>
                                 <p>Framework Javascript</p>
@@ -158,7 +179,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/mysql.png" alt="Gambar MySQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="Gambar MySQL">
                             <div class="tools-desc">
                                 <h3>MySQL</h3>
                                 <p>Basis Data</p>
@@ -166,7 +187,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/postgresql.png" alt="Gambar PostgreSQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="Gambar PostgreSQL">
                             <div class="tools-desc">
                                 <h3>PostgreSQL</h3>
                                 <p>Basis Data</p>
@@ -174,7 +195,7 @@
                         </div>
 
                         <div class="tools-box">
-                            <img src="../latihan-display/images/mongodb.png" alt="Gambar MongoDB">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="Gambar MongoDB">
                             <div class="tools-desc">
                                 <h3>MongoDB</h3>
                                 <p>Basis Data</p>
@@ -196,5 +217,115 @@
         </path>
     </svg>
     <!-- Waves -->
+
+    <!-- Proyek -->
+    <div class="project" id="project">
+        <div class="container">
+            <h1>Daftar Proyek</h1>
+            <p>Berikut ini adalah beberapa proyek yang sudah saya kerjakan.</p>
+            
+            <div class="project-box">
+                <div class="box">
+                    <img src="../latihan-display/images/project.jpg" alt="Gambar Proyek 1">
+                    <div class="project-desc">
+                        <h2>Proyek 1</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                        <div class="project-btn">
+                            <a href="#" target="_blank">Lihat Website</a>
+                            <a href="https://github.com/ryanyny" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../latihan-display/images/project.jpg" alt="Gambar Proyek 2">
+                    <div class="project-desc">
+                        <h2>Proyek 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                        <div class="project-btn">
+                            <a href="#" target="_blank">Lihat Website</a>
+                            <a href="https://github.com/ryanyny" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../latihan-display/images/project.jpg" alt="Gambar Proyek 3">
+                    <div class="project-desc">
+                        <h2>Proyek 3</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                        <div class="project-btn">
+                            <a href="#" target="_blank">Lihat Website</a>
+                            <a href="https://github.com/ryanyny" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../latihan-display/images/project.jpg" alt="Gambar Proyek 4">
+                    <div class="project-desc">
+                        <h2>Proyek 4</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                        <div class="project-btn">
+                            <a href="#" target="_blank">Lihat Website</a>
+                            <a href="https://github.com/ryanyny" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Proyek -->
+
+    <!-- Waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+            fill="#3674b5"
+            fill-opacity="1"
+            d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <!-- Waves -->
+
+    <!-- Kontak -->
+    <footer id="contact">
+        <div class="social">
+            <a href="https://www.instagram.com/fullenglishbreakfastt/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6285718585055" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ryanfebriansyah@gmail.com&su=&body=" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ryan-febriansyah-92a9b429a/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+
+        <p>&copy; Copyright 2025 by <span>RyTech Corporate.</span></p>
+    </footer>
+    <!-- Kontak -->
 </body>
 </html>
